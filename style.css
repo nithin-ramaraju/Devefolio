@@ -1,0 +1,355 @@
+body {
+    background-color: rgb(187, 202, 206);
+    background-image: url("./output-onlinepngtools-removebg-preview.png");
+    background-repeat: no-repeat;
+    background-position: 850px 330px;
+}
+
+.para {
+    margin-top: 150px;
+    width: 40%;
+    height: 400px;
+    float: right;
+    font-size: 50px;
+    font-family: "Protest Revolution", Madimi One, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: rgb(106, 182, 146);
+}
+
+.container {
+    display: inline-block;
+    width: 60%;
+    height: 550px;
+    align-content: center;
+}
+
+ol>li {
+    font-size: 200%;
+    color: rgb(187, 202, 206);
+}
+
+#hot>li::marker {
+    color: rgb(187, 202, 206);
+}
+
+.b1 {
+    border-radius: 50%;
+    padding-left: 45px;
+    margin-left: 270px;
+}
+
+.b2 {
+    border-radius: 50%;
+    padding-left: 45px;
+    margin-left: 300px;
+}
+
+.b3 {
+    border-radius: 50%;
+    padding-left: 45px;
+    margin-left: 330px;
+}
+
+#home {
+    width: 50%;
+    height: 400px;
+}
+
+div>img {
+    float: right;
+    opacity: 10%;
+}
+
+#nav-bar {
+    width: 100%;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    background-color: rgb(154, 230, 213);
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    flex-wrap: nowrap;
+    position: sticky;
+}
+
+#nav-bar>a {
+    text-decoration: none;
+    color: aliceblue;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    padding-left: 40px;
+    padding-right: 20px;
+}
+
+.cup>div {
+    margin-left: 250px;
+    background-color: aliceblue;
+    width: 350px;
+    height: 300px;
+    border-radius: 20px 20px 150px 150px;
+}
+
+.icon {
+    font-family: "Anta", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    font-size: 30px;
+    align-content: center;
+    background-color: rgb(4, 175, 255);
+    margin-left: 40%;
+    margin-top: 50px;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-decoration: none;
+    color: rgb(228, 235, 238);
+    border-radius: 20px;
+}
+
+.tea {
+    background-color: rgb(160, 97, 16);
+    border-radius: 30%;
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-right: 40px;
+    box-shadow: 3px -3px rgb(129, 132, 133);
+}
+
+li::marker {
+    color: aliceblue;
+}
+
+.sausor {
+    background-color: aliceblue;
+    margin-left: 250px;
+    width: 350px;
+    height: 40px;
+    border-radius: 0% 0% 50% 50%;
+    transform: rotateX(85deg) scaleY(9);
+}
+
+/*    ANIMATIOn START    */
+
+#hot li {
+    width: 0.5em;
+    min-width: 10px;
+    background-color: white;
+    animation: evaporation 2s linear infinite;
+    filter: opacity(0);
+}
+
+#hot li:nth-child(3) {
+    animation-delay: 0.5s;
+}
+
+#hot li:nth-child(2) {
+    animation-delay: 0.1s;
+}
+
+#hot li:nth-child(1) {
+    animation-delay: 0.3s;
+}
+
+@keyframes evaporation {
+    from {
+        transform: translateY(0);
+        filter: opacity(1) blur(0em);
+    }
+
+    to {
+        transform: translateY(-4em);
+        filter: opacity(0) blur(0.4em);
+    }
+}
+
+/*  END OF ANIMATION  */
+h1 {
+    margin-top: 40px;
+    text-align: center;
+}
+
+.about-logo>h1,
+.about-logo>h2,
+.studies>p,
+.self>p {
+    text-align: justify;
+}
+
+.self{
+position:relative;
+
+}
+.about-logo>h1,
+.self>h1,
+.self>h2 {
+    text-align: center;
+}
+
+.studies {
+    padding: 40px;
+    padding-top: 10px;
+    display: flex;
+    gap: 50px;
+    justify-content: space-evenly;
+}
+
+span {
+    margin-left: 30%;
+    font-size: 25px;
+    font-family: "Madimi One", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.about-logo>h1,
+.self>h1 {
+    width: fit-content;
+    text-align: center;
+    margin-left: 43%;
+}
+
+.self>h1 {
+    width: fit-content;
+    margin-left: 46%;
+}
+
+.self>h2 {
+    width: fit-content;
+    margin-left: 38%;
+}
+
+.self>p {
+    width: 45%;
+    margin-left: 30%;
+}
+
+.self>p,
+.studies>p {
+    line-height: 30px;
+    font-family: "Josefin Sans", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    box-shadow: 5px 5px;
+    border-radius: 20px;
+}
+
+.self>h1,
+.self>h2,
+.about-logo>h1,
+#project>h1,#skills>h1 {
+    font-family: "Afacad", sans-serif;
+    font-weight: 1000;
+    font-style: normal;
+    font-size: 30px;
+    box-shadow: 0px 2px;
+    border-radius: 2px;
+}
+
+#about {
+    background-image: url("./IMG-20230925-WA0022.jpg");
+    filter: contrast(50%);
+    background-size: 60%;
+    background-position: 50%;
+    background-repeat: no-repeat;
+}
+
+.studies-icon {
+    height: 100px;
+    background-image: url("./m2H7H7A0N4i8b1d3-removebg-preview.png");
+    opacity: 1;
+    filter: contrast(90%);
+    background-repeat: no-repeat;
+    background-size: 10%;
+    background-position: top;
+}
+
+.project-icon {
+    margin-right: 40%;
+    width: 300px;
+    height: 300px;
+    opacity: 30%;
+}
+
+#project>h1 {
+    margin-left: 45%;
+    width: fit-content;
+    text-align: center;
+}
+
+.list-project>div {
+    width: 100%;
+}
+
+.list-project>a {
+    text-align: center;
+    width: 150px;
+    padding-block: 90px;
+    padding-inline: 30px;
+    text-decoration: none;
+    font-weight: 800;
+    font-style: italic;
+    color: black;
+    background-color: rgb(85, 85, 85);
+    border-radius: 10px;
+}
+
+.list-project a:nth-child(1) {
+    background-image: url("./OIPport.jfif");
+    color: rgb(252, 254, 255);
+}
+
+.list-project {
+    padding-block: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 20px;
+    font-size: 35px;
+}
+
+#skills>ul {
+    display: grid;
+    grid-template-rows: 300px 300px;
+    grid-template-columns: 300px  300px 300px;
+    justify-content: center;
+}
+
+#skills>ul li:nth-child(4){
+    margin-left: 170px;
+}
+
+#skills>ul li:nth-child(5){
+    margin-left: 170px;
+}
+
+li>img {
+    border-radius: 50px;
+    width: 200px;
+    height: 200px;
+}
+
+#skills>h1 {
+    width: fit-content;
+    margin-left: 45%;
+    margin-bottom: 50px;
+}
+
+#skills>ul>li::marker {
+    color: rgb(187, 202, 206);
+}
+
+footer{
+    width: 100%;
+    height: 60px;
+    background-color: rgb(2, 2, 2);
+    display: grid;
+    grid-template-columns: 20px 20px 20px;
+    justify-content: center;
+    column-gap: 30px;
+    padding: 20px;
+    padding-top: 60px;
+}
